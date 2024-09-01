@@ -2,6 +2,15 @@
 
 Repositorio donde se alojarán los proyectos correspondientes a la materia de Desarrollo de Backend II.
 
+## Clonar el Repositorio
+
+Para clonar este repositorio en tu ordenador, abre una terminal y ejecuta el siguiente comando en la carpeta en donde tu desees:
+
+```bash
+git clone https://github.com/XPFLASH/BackendDevII.git
+```
+Es necesario tener [**Python**](https://www.python.org/) y [**Git**](https://git-scm.com/)  instalado para poder realizar esto 
+
 ## Estructura del Repositorio
 
 Este repositorio está organizado en diferentes carpetas, cada una correspondiente a un proyecto o ejercicio específico dentro de la Materia. 
