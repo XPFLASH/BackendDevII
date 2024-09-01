@@ -12,4 +12,4 @@ A continuación se describe brevemente cada carpeta:
    - **Descripción**: Dentro de esta carpeta se encuentra el Algoritmo de Ordenamiento Romano, en donde se detecta las letras romanas dentro de una palabra implementando una función con la cual se realiza el proceso y se calcula su valor
    - **Contenido**:
      - `ordenamiento_romano.py`: Archivo en donde se encuentra el algoritmo de Ordenamiento Romanos
-     - `readme.md`: Instrucciones para ejecutar y/o entender el funcionamiento del algoritmo
+     
