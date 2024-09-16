@@ -1,8 +1,8 @@
 # Docker Proxy
 
-#### Alumno: Escobar Ceseña Ricardo
-#### No. de control: 20760258
-#### Materia: Desarrollo Backend II
+## Requisitos Previos
+
+Es necesario tener [**Docker**](https://docs.docker.com/)
 
 ## Instrucciones
 
