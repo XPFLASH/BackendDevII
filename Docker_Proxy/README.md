@@ -2,7 +2,7 @@
 
 ## Requisitos Previos
 
-Es necesario tener [**Docker**](https://docs.docker.com/)
+Es necesario tener instalado [**Docker**](https://docs.docker.com/)
 
 ## Instrucciones
 
