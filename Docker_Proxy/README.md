@@ -10,4 +10,18 @@ Configurar un Docker con Nginx con el puerto 80 para posteriormente instalar den
 
 ## Proceso
 
-A
+Desde la terminal (en algún lugar o carpeta de nuestro gusto) debemos ejecutar el siguiente comando:
+
+```bash
+docker pull nginx
+```
+En donde con esto nos instalara la version más reciente de nginx, igualmente si queremos alguna versión valida en especifico debemos poner seguido de nginx ":version", como se muestra a continuación, aunque es recomendable tener la versión más actual
+
+```bash
+docker pull nginx:1.13.7
+```
+Posteriormente para poder ver la imagen descargada debemos ejecutar el comando:
+
+```bash
+docker images
+```
