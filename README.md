@@ -26,4 +26,9 @@ A continuación se describe brevemente cada carpeta:
    - **Descripción**: Dentro de esta carpeta se encuentra un algoritmo en donde daba una matriz, genera la ruta con más y menos costo para llegar a determinados puntos 
    - **Contenido**:
      - `ruta.py`: Archivo en donde se encuentra el algoritmo de Ruta (En Proceso de hacer ...)
+
+### 3. [**Docker Proxy**](https://github.com/XPFLASH/BackendDevII/blob/main/Docker_Proxy)
+   - **Descripción**: Dentro de esta carpeta se encuentra un archivo README.md en donde se muestra evidencia de la configuracion un Docker con Nginx con el puerto 80
+   - **Contenido**:
+     - `README.md`: Archivo en donde se encuentra la evidencia de la realizacion de la actividad
      
