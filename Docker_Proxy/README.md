@@ -89,5 +89,9 @@ docker-compose up -d
 
 ![docker_compose](./images/docker_compose_up.png)
 
+Podemos verificar en el Docker Desktop que se estan compilando y ejecutando los servicios dentro del contenedor
 
+![docker desktop](./images/docker_desktop.png)
+
+Si entramos ahora a la ruta 'http://127.0.0.1:8080/pagina' podemos observar que se muestra el mensaje del archivo main.py que se realizo con Flask
 
