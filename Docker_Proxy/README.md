@@ -81,3 +81,13 @@ Dentro de este archivo se contiene una aplicación flask en donde al acceder a u
 ![main_py](./images/main_py.png)
 
 
+Al ya tener los archivos y la instalacion de los contenedores de Python y Nginx, ejecutamos el comando docker-compose up para poder levantar todos los servicios especificados en el archivo docker-compose.yml
+
+```bash
+docker-compose up -d
+```
+
+![docker_compose](./images/docker_compose_up.png)
+
+
+
