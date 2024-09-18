@@ -50,9 +50,14 @@ Para poder detener el contenedor se necesita ejecutar el comando:
 ```bash
 docker stop nombreContenedor
 ```
-Despues de detener el contendor, nos vamos a dirigir a la ruta en donde se esta almacenando nuestro Docker por lo que vamos a un editor de codigo para añadirle unos archivos
+Despues de detener el contendor, nos vamos a dirigir a la ruta en donde se esta almacenando nuestro Docker por lo que vamos a un editor de codigo para añadirle los siguientes archivos:
 
 #### 1. docker-compose.yml
+Es un archivo de configuración que se usa para poder definir y ejecutar múltiples servicios Docker dentro de un solo entorno.
 #### 2. Dokerfile
+Este archivo que contiene instrucciones para construir una imagen Docker, es decir define el entorno del contenedor (dependencias, instrucciones, comandos, etc.)
 #### 3. nginx.conf
+Es el archivo de configuración principal de Nginx, donde se define cómo manejar las solicitudes, configurar servidores y proxies.
+
 #### 4. main.py
+Dentro de este archivo se contiene una aplicación flask en donde al acceder a una ruta va devolver un mensaje de texto
