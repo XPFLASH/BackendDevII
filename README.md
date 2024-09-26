@@ -31,4 +31,11 @@ A continuación se describe brevemente cada carpeta:
    - **Descripción**: Dentro de esta carpeta se encuentra un archivo README.md en donde se muestra evidencia de la configuracion un Docker con Nginx con el puerto 80
    - **Contenido**:
      - `README.md`: Archivo en donde se encuentra la evidencia de la realizacion de la actividad
+
+### 4. [**Chat CMD**](https://github.com/XPFLASH/BackendDevII/tree/main/ChatCMD)
+   - **Descripción**: Dentro de esta carpeta se encuentra codigo del socket server-client, el cual es una especie de Chat dentro de la terminal al momento de ejecutarlo, igualmente ahora acepta ciertos comandos que al momento de escribirlos no le aparecen a los demás usuarios conectados
+   - **Contenido**:
+     - `cliente-socket.py`: Archivo en donde se la logica y/o configuracion en la parte del cliente
+     - `server-socket.py`: Archivo en donde se encuentra la logica y/o configuracion en la parte del servidor
+     - `README.md`: Archivo que sirve para explicar como usar este proyecto
      
