@@ -14,8 +14,31 @@ Es necesario tener instalado [**Docker**](https://docs.docker.com/)
 
 ## Proceso
 
+Desde la terminal (en algún lugar o carpeta de nuestro gusto) debemos ejecutar el siguiente comando:
+
+```bash
+docker pull postgres:13
+```
 ![docker postgree pull](./images/postgree_pull.png)
+
+En donde con esto nos instalara una version de postgres, igualmente si queremos alguna versión valida en especifico debemos poner seguido de postgres ":version" o bien tener la versión mas actualizada debemos poner postgres ":latest"
+
+```bash
+docker pull postgres:latest
+```
+Una vez ya descargada la imagen para poder confirmarla debemos ejecutar el comando:
+
+```bash
+docker images
+```
 ![docker images](./images/docker_images.png)
+
+Para crear un Docker, tendremos que ejecutar el siguiente comando:
+
+```bash
+docker run --name nombreContenedor -e POSTGRES_PASSWORD=tuContraseña -d -p 80:80 postgres:13
+```
+
 ![docker run](./images/docker_run.png)
 ![docker ps](./images/docker_ps.png)
 ![docker compose_yml](./images/docker_compose_yml.png)
