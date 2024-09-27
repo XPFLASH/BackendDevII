@@ -1,5 +1,8 @@
 # ChatCMD
 
+#### Alumno: Escobar Ceseña Ricardo
+#### Grupo: 9SE
+
 ## Instrucciones
 
 Utilizando el codigo del socket server-client para que acepte comandos por parte del cliente.
