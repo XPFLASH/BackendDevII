@@ -16,7 +16,14 @@ class Cliente():
 
         while True:
             msg = input('-> ')
-            if msg.startswith('get '):
+            if msg == 'help':
+                print("Comandos disponibles:")
+                print("  IsFiles  -> Ver la lista de archivos disponibles en el servidor")
+                print("  get <archivo>  -> Descargar un archivo del servidor (Incluir terminación, Ejem .py, .txt, .json)")
+                print("  salir    -> Cerrar la sesión")
+
+            elif msg.startswith('get '):
+                print('Iniciando descarga...')
                 self.send_msg(msg)
 
             elif msg != 'salir':
@@ -24,7 +31,7 @@ class Cliente():
             
             elif msg == 'IsFiles': 
                 self.send_msg(msg)
-        
+                   
             else:
                 self.sock.close()
                 sys.exit()
