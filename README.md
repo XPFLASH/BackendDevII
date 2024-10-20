@@ -38,4 +38,17 @@ A continuación se describe brevemente cada carpeta:
      - `cliente-socket.py`: Archivo en donde se la logica y/o configuracion en la parte del cliente
      - `server-socket.py`: Archivo en donde se encuentra la logica y/o configuracion en la parte del servidor
      - `README.md`: Archivo que sirve para explicar como usar este proyecto
+
+### 5. [**PostgreSQL**](https://github.com/XPFLASH/BackendDevII/tree/main/PostgreSQL)
+   - **Descripción**: Dentro de esta carpeta se encuentra codigo del socket server-client, el cual es una especie de Chat dentro de la terminal al momento de ejecutarlo, igualmente ahora acepta ciertos comandos que al momento de escribirlos no le aparecen a los demás usuarios conectados
+   - **Contenido**:
+     - `images`: Carpeta donde se encuentran las capturas de imagenes de la realizacion de la práctica
+     - `README.md`: Archivo que sirve para explicar como usar el proceso del proyecto
+
+### 6. [**RPCalculadora**](https://github.com/XPFLASH/BackendDevII/tree/main/RPCalculadora)
+   - **Descripción**: Dentro de esta carpeta se encuentra codigo, el cual es una especie de calculadora remota en la cual el server se encarga de realizar las operaciones que se ingresen por parte del cliente, el cual se conecta al servidor para realizar las solicitudes de operaciones 
+   - **Contenido**:
+     - `cliente.py`: Archivo que sirve para conectarse al servidor y ingresar las operaciones para realizar la solicitudes
+     - `server.py`: Archivo que realiza las operaciones que solicita el cliente, donde se encuentra la logica y/o configuracion del servidor
+     - `README.md`: Archivo que sirve para explicar como usar este proyecto
      
